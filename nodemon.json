@@ -1,0 +1,13 @@
+{
+    "verbose": false,
+    "ignore": [
+        "node_modules",
+        "*.{test,spec}.{ts,js}"
+    ],
+    "watch": [
+        "src/**/*.ts"
+    ],
+    "execMap": {
+        "ts": "node -r ts-node/register"
+    }
+}
